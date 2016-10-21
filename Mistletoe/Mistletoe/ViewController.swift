@@ -2,19 +2,23 @@
 //  ViewController.swift
 //  Mistletoe
 //
-//  Created by Ryan Clark on 10/15/16.
+//  Created by Zach Kobes & Ryan Clark on 10/15/16.
 //  Copyright © 2016 Ryan Clark. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
 
     @IBOutlet weak var daysView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        daysView.delegate = self
+        daysView.dataSource = self
+        if let flowLayout = daysView.collectionViewLayout as? UICollectionViewFlowLayout {             flowLayout.minimumLineSpacing = 0
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +27,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DaysID", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DaysID", for: indexPath) as! DaysCollectionViewCell
+        
+        cell.dayBackground.image = UIImage(named:"RedBackground")
         
         return cell
     }
@@ -32,31 +38,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return 25
     }
     
-    @IBAction func swipeView() {   //(sender: UIPanGestureRecognizer) {
-
-        let leftSwipe = UISwipeGestureRecognizer(target: self, action: Selector(("handleSwipes")))
-        let rightSwipe = UISwipeGestureRecognizer(target: self, action: Selector(("handleSwipes")))
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        leftSwipe.direction = .left
-        rightSwipe.direction = .right
-        
-        view.addGestureRecognizer(leftSwipe)
-        view.addGestureRecognizer(rightSwipe)
-        // let translation = sender.translation(in: self.view)
-        // sender.view!.center = CGPoint(x: sender.view!.center.x + translation.x, y: sender.view!.center.y + translation.y)
-        // sender.setTranslation(.zero, in: self.view)
+        return CGSize(width: collectionView.bounds.size.width, height: collectionView.bounds.size.height)
     }
     
-    func handleSwipes(sender:UISwipeGestureRecognizer) {
-        if (sender.direction == .left) {
-            sender.view!.center = CGPoint(x:sender.view!.center.x - 50.0, y:sender.view!.center.y);
-            //swipeLabel.frame = CGRectMake( labelPosition.x , labelPosition.y , self.swipeLabel.frame.size.width, self.swipeLabel.frame.size.height)
-            
-        }
-        
-        if (sender.direction == .right) {
-            sender.view!.center = CGPoint(x:sender.view!.center.x + 50.0, y:sender.view!.center.y);
-        }
-    }
 }
 
