@@ -31,7 +31,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DaysID" id="JDK-8G-fkL" customClass="DaysCollectionViewCell" customModule="Mistletoe" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="12" width="311" height="464"/>
+                                        <rect key="frame" x="0.0" y="34" width="311" height="464"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="311" height="464"/>
@@ -79,30 +79,24 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1535.2" y="-10.344827586206897"/>
+            <point key="canvasLocation" x="2474.4000000000001" y="-10.344827586206897"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="49R-bw-9tL">
             <objects>
                 <viewController id="SWN-Cp-CXv" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ttm-Cr-9gb"/>
-                        <viewControllerLayoutGuide type="bottom" id="Bid-1g-c0P"/>
+                        <viewControllerLayoutGuide type="top" id="gKb-K1-7kE"/>
+                        <viewControllerLayoutGuide type="bottom" id="FXd-gb-JHz"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="2Wq-Vf-yvE">
+                    <view key="view" contentMode="scaleToFill" id="rMK-Zr-YgH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kd-u3-RSM">
-                                <frame key="frameInset" minX="89" minY="341" width="162" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pM1-X2-Gog" customClass="FBSDKLoginButton">
+                                <frame key="frameInset" minX="102" minY="272" width="117" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="nDC-9o-btc"/>
-                                </connections>
+                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -111,12 +105,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rsk-7d-v1X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="514.39999999999998" y="-10.344827586206897"/>
+            <point key="canvasLocation" x="513.75" y="-11.25"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bxl-h0-zaE">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z74-sW-nrj" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="z74-sW-nrj" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GOD-B0-YvB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -130,6 +124,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7BX-1J-67f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-426.39999999999998" y="-10.344827586206897"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="20X-4F-sma">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="999-7F-Gi7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fU8-7x-QfU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="f5H-wn-nQG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RYq-Mb-qxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1535.2" y="-10.344827586206897"/>
         </scene>
     </scenes>
     <resources>

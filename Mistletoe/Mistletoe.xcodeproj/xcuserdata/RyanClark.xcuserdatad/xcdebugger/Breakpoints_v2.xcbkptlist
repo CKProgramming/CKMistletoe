@@ -10,12 +10,21 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mistletoe/ViewController.swift"
+<<<<<<< HEAD
             timestampString = "498627258.757997"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
             endingLineNumber = "16"
             landmarkName = "viewDidLoad()"
+=======
+            timestampString = "498963321.779538"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "loginButton(_:didCompleteWith:error:)"
+>>>>>>> aac12903a9270f8983d0b765acd3789cd73a14ce
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -104,12 +113,37 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mistletoe/ViewController.swift"
+<<<<<<< HEAD
             timestampString = "498702300.188918"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
             endingLineNumber = "43"
             landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+=======
+            timestampString = "498963321.779538"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mistletoe/ViewController.swift"
+            timestampString = "499049570.035147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "loginButton(_:didCompleteWith:error:)"
+>>>>>>> aac12903a9270f8983d0b765acd3789cd73a14ce
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
