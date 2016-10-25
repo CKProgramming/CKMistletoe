@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2004696F1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004696E1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift */; };
+		202961A41DB5B3E600661920 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202961A31DB5B3E600661920 /* Images.xcassets */; };
+		202961AA1DB873A100661920 /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202961A91DB873A100661920 /* DaysCollectionViewCell.swift */; };
+		20321EE61DB32EC00012770F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321EE51DB32EC00012770F /* AppDelegate.swift */; };
+		20321EE81DB32EC00012770F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321EE71DB32EC00012770F /* ViewController.swift */; };
+		20321EEB1DB32EC00012770F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20321EE91DB32EC00012770F /* Main.storyboard */; settings = {ASSET_TAGS = (dayCard, ); }; };
+		20321EEE1DB32EC00012770F /* Mistletoe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20321EEC1DB32EC00012770F /* Mistletoe.xcdatamodeld */; };
+		20321EF31DB32EC00012770F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20321EF11DB32EC00012770F /* LaunchScreen.storyboard */; };
+		20321EFE1DB32EC00012770F /* MistletoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321EFD1DB32EC00012770F /* MistletoeTests.swift */; };
+		20321F091DB32EC00012770F /* MistletoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321F081DB32EC00012770F /* MistletoeUITests.swift */; };
+		20C1A2601DBD6439007B610A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C1A25E1DBD6439007B610A /* FBSDKCoreKit.framework */; };
+		20C1A2611DBD6439007B610A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20321EFA1DB32EC00012770F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20321EDA1DB32EC00012770F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20321EE11DB32EC00012770F;
+			remoteInfo = Mistletoe;
+		};
+		20321F051DB32EC00012770F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20321EDA1DB32EC00012770F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20321EE11DB32EC00012770F;
+			remoteInfo = Mistletoe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2004696E1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedHomePageCollectionView.swift; sourceTree = "<group>"; };
+		202961A31DB5B3E600661920 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		202961A91DB873A100661920 /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
+		20321EE21DB32EC00012770F /* Mistletoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mistletoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20321EE51DB32EC00012770F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20321EE71DB32EC00012770F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20321EEA1DB32EC00012770F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20321EED1DB32EC00012770F /* Mistletoe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mistletoe.xcdatamodel; sourceTree = "<group>"; };
+		20321EF21DB32EC00012770F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20321EF41DB32EC00012770F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20321EF91DB32EC00012770F /* MistletoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistletoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20321EFD1DB32EC00012770F /* MistletoeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistletoeTests.swift; sourceTree = "<group>"; };
+		20321EFF1DB32EC00012770F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20321F041DB32EC00012770F /* MistletoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistletoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20321F081DB32EC00012770F /* MistletoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistletoeUITests.swift; sourceTree = "<group>"; };
+		20321F0A1DB32EC00012770F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C1A25E1DBD6439007B610A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.16.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.16.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		20C1A2621DBD6666007B610A /* Mistletoe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mistletoe-Bridging-Header.h"; sourceTree = "<group>"; };
+		20C1A2661DBD8866007B610A /* Mistletoe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mistletoe.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20321EDF1DB32EC00012770F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C1A2611DBD6439007B610A /* FBSDKLoginKit.framework in Frameworks */,
+				20C1A2601DBD6439007B610A /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20321EF61DB32EC00012770F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20321F011DB32EC00012770F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20321ED91DB32EC00012770F = {
+			isa = PBXGroup;
+			children = (
+				20321EE41DB32EC00012770F /* Mistletoe */,
+				20321EFC1DB32EC00012770F /* MistletoeTests */,
+				20321F071DB32EC00012770F /* MistletoeUITests */,
+				20321EE31DB32EC00012770F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20321EE31DB32EC00012770F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20321EE21DB32EC00012770F /* Mistletoe.app */,
+				20321EF91DB32EC00012770F /* MistletoeTests.xctest */,
+				20321F041DB32EC00012770F /* MistletoeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20321EE41DB32EC00012770F /* Mistletoe */ = {
+			isa = PBXGroup;
+			children = (
+				20C1A2661DBD8866007B610A /* Mistletoe.entitlements */,
+				20321EE51DB32EC00012770F /* AppDelegate.swift */,
+				20321EE71DB32EC00012770F /* ViewController.swift */,
+				20321EE91DB32EC00012770F /* Main.storyboard */,
+				20321EF11DB32EC00012770F /* LaunchScreen.storyboard */,
+				20321EF41DB32EC00012770F /* Info.plist */,
+				20321EEC1DB32EC00012770F /* Mistletoe.xcdatamodeld */,
+				202961A31DB5B3E600661920 /* Images.xcassets */,
+				202961A91DB873A100661920 /* DaysCollectionViewCell.swift */,
+				20C1A25E1DBD6439007B610A /* FBSDKCoreKit.framework */,
+				20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */,
+				20C1A2621DBD6666007B610A /* Mistletoe-Bridging-Header.h */,
+				2004696E1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift */,
+			);
+			path = Mistletoe;
+			sourceTree = "<group>";
+		};
+		20321EFC1DB32EC00012770F /* MistletoeTests */ = {
+			isa = PBXGroup;
+			children = (
+				20321EFD1DB32EC00012770F /* MistletoeTests.swift */,
+				20321EFF1DB32EC00012770F /* Info.plist */,
+			);
+			path = MistletoeTests;
+			sourceTree = "<group>";
+		};
+		20321F071DB32EC00012770F /* MistletoeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20321F081DB32EC00012770F /* MistletoeUITests.swift */,
+				20321F0A1DB32EC00012770F /* Info.plist */,
+			);
+			path = MistletoeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20321EE11DB32EC00012770F /* Mistletoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20321F0D1DB32EC00012770F /* Build configuration list for PBXNativeTarget "Mistletoe" */;
+			buildPhases = (
+				20321EDE1DB32EC00012770F /* Sources */,
+				20321EDF1DB32EC00012770F /* Frameworks */,
+				20321EE01DB32EC00012770F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mistletoe;
+			productName = Mistletoe;
+			productReference = 20321EE21DB32EC00012770F /* Mistletoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20321EF81DB32EC00012770F /* MistletoeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20321F101DB32EC00012770F /* Build configuration list for PBXNativeTarget "MistletoeTests" */;
+			buildPhases = (
+				20321EF51DB32EC00012770F /* Sources */,
+				20321EF61DB32EC00012770F /* Frameworks */,
+				20321EF71DB32EC00012770F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20321EFB1DB32EC00012770F /* PBXTargetDependency */,
+			);
+			name = MistletoeTests;
+			productName = MistletoeTests;
+			productReference = 20321EF91DB32EC00012770F /* MistletoeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20321F031DB32EC00012770F /* MistletoeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20321F131DB32EC00012770F /* Build configuration list for PBXNativeTarget "MistletoeUITests" */;
+			buildPhases = (
+				20321F001DB32EC00012770F /* Sources */,
+				20321F011DB32EC00012770F /* Frameworks */,
+				20321F021DB32EC00012770F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20321F061DB32EC00012770F /* PBXTargetDependency */,
+			);
+			name = MistletoeUITests;
+			productName = MistletoeUITests;
+			productReference = 20321F041DB32EC00012770F /* MistletoeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20321EDA1DB32EC00012770F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					dayCard,
+				);
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ryan Clark";
+				TargetAttributes = {
+					20321EE11DB32EC00012770F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5FW722TRYW;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					20321EF81DB32EC00012770F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20321EE11DB32EC00012770F;
+					};
+					20321F031DB32EC00012770F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20321EE11DB32EC00012770F;
+					};
+				};
+			};
+			buildConfigurationList = 20321EDD1DB32EC00012770F /* Build configuration list for PBXProject "Mistletoe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20321ED91DB32EC00012770F;
+			productRefGroup = 20321EE31DB32EC00012770F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20321EE11DB32EC00012770F /* Mistletoe */,
+				20321EF81DB32EC00012770F /* MistletoeTests */,
+				20321F031DB32EC00012770F /* MistletoeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20321EE01DB32EC00012770F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202961A41DB5B3E600661920 /* Images.xcassets in Resources */,
+				20321EF31DB32EC00012770F /* LaunchScreen.storyboard in Resources */,
+				20321EEB1DB32EC00012770F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20321EF71DB32EC00012770F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20321F021DB32EC00012770F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20321EDE1DB32EC00012770F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2004696F1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift in Sources */,
+				20321EE81DB32EC00012770F /* ViewController.swift in Sources */,
+				20321EE61DB32EC00012770F /* AppDelegate.swift in Sources */,
+				20321EEE1DB32EC00012770F /* Mistletoe.xcdatamodeld in Sources */,
+				202961AA1DB873A100661920 /* DaysCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20321EF51DB32EC00012770F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20321EFE1DB32EC00012770F /* MistletoeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20321F001DB32EC00012770F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20321F091DB32EC00012770F /* MistletoeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20321EFB1DB32EC00012770F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20321EE11DB32EC00012770F /* Mistletoe */;
+			targetProxy = 20321EFA1DB32EC00012770F /* PBXContainerItemProxy */;
+		};
+		20321F061DB32EC00012770F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20321EE11DB32EC00012770F /* Mistletoe */;
+			targetProxy = 20321F051DB32EC00012770F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20321EE91DB32EC00012770F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20321EEA1DB32EC00012770F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20321EF11DB32EC00012770F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20321EF21DB32EC00012770F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20321F0B1DB32EC00012770F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20321F0C1DB32EC00012770F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20321F0E1DB32EC00012770F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5FW722TRYW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mistletoe/FacebookSDKs-iOS-4.16.1",
+				);
+				INFOPLIST_FILE = Mistletoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.Mistletoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mistletoe/Mistletoe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		20321F0F1DB32EC00012770F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5FW722TRYW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mistletoe/FacebookSDKs-iOS-4.16.1",
+				);
+				INFOPLIST_FILE = Mistletoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.Mistletoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mistletoe/Mistletoe-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		20321F111DB32EC00012770F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MistletoeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mistletoe.app/Mistletoe";
+			};
+			name = Debug;
+		};
+		20321F121DB32EC00012770F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MistletoeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mistletoe.app/Mistletoe";
+			};
+			name = Release;
+		};
+		20321F141DB32EC00012770F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MistletoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mistletoe;
+			};
+			name = Debug;
+		};
+		20321F151DB32EC00012770F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MistletoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mistletoe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20321EDD1DB32EC00012770F /* Build configuration list for PBXProject "Mistletoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20321F0B1DB32EC00012770F /* Debug */,
+				20321F0C1DB32EC00012770F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20321F0D1DB32EC00012770F /* Build configuration list for PBXNativeTarget "Mistletoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20321F0E1DB32EC00012770F /* Debug */,
+				20321F0F1DB32EC00012770F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20321F101DB32EC00012770F /* Build configuration list for PBXNativeTarget "MistletoeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20321F111DB32EC00012770F /* Debug */,
+				20321F121DB32EC00012770F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20321F131DB32EC00012770F /* Build configuration list for PBXNativeTarget "MistletoeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20321F141DB32EC00012770F /* Debug */,
+				20321F151DB32EC00012770F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20321EEC1DB32EC00012770F /* Mistletoe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20321EED1DB32EC00012770F /* Mistletoe.xcdatamodel */,
+			);
+			currentVersion = 20321EED1DB32EC00012770F /* Mistletoe.xcdatamodel */;
+			path = Mistletoe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20321EDA1DB32EC00012770F /* Project object */;
+}
