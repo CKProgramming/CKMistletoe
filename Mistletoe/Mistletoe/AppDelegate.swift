@@ -8,20 +8,22 @@
 
 import UIKit
 import CoreData
+import CoreLocation
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
+	
+	let locationManager = CLLocationManager()
     var window: UIWindow?
-
-
-    private func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
-    {
-        // Override point for customization after application launch.
-        
-        return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
-    }
-    
+	
+	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+		locationManager.delegate = self
+		locationManager.desiredAccuracy = kCLLocationAccuracyBest
+		locationManager.requestWhenInUseAuthorization()
+		locationManager.startUpdatingLocation()
+		return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+	}
+	
     func applicationWillTerminate(application: UIApplication)
     {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
@@ -103,6 +105,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+	
+	func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+		print("Error: " + error.localizedDescription)
+	}
+	
+	func locationManager(_ manager: CLLocationManager,
+                 didUpdateLocations locations: [CLLocation]) {
+		let currentCoordinates = locations[(locations.count - 1)].coordinate
+		let latitude = currentCoordinates.latitude
+		let longitude = currentCoordinates.longitude
+//		print("Latitude = \(latitude) and Longitude = \(longitude)")
+	}
 }
-

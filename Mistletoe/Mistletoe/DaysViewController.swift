@@ -11,6 +11,7 @@ import UIKit
 class DaysViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     @IBOutlet weak var daysView: UICollectionView!
+	let maxDays = 25
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,9 +27,9 @@ class DaysViewController: UIViewController, UICollectionViewDelegate, UICollecti
         cell.dayBackground.image = UIImage(named:"RedBackground")
         return cell
     }
-    
+	
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 25
+        return maxDays
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2004696F1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004696E1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift */; };
 		202961A41DB5B3E600661920 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202961A31DB5B3E600661920 /* Images.xcassets */; };
 		202961AA1DB873A100661920 /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202961A91DB873A100661920 /* DaysCollectionViewCell.swift */; };
 		20321EE61DB32EC00012770F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321EE51DB32EC00012770F /* AppDelegate.swift */; };
@@ -40,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2004696E1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedHomePageCollectionView.swift; sourceTree = "<group>"; };
 		202961A31DB5B3E600661920 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		202961A91DB873A100661920 /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
 		20321EE21DB32EC00012770F /* Mistletoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mistletoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,7 +121,6 @@
 				20C1A2661DBD8866007B610A /* Mistletoe.entitlements */,
 				20321EEC1DB32EC00012770F /* Mistletoe.xcdatamodeld */,
 				20C1A2621DBD6666007B610A /* Mistletoe-Bridging-Header.h */,
-				2004696E1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift */,
 				20C1A25E1DBD6439007B610A /* FBSDKCoreKit.framework */,
 				20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */,
 			);
@@ -236,12 +233,12 @@
 				TargetAttributes = {
 					20321EE11DB32EC00012770F = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 5FW722TRYW;
+						DevelopmentTeam = 4W29M3CXTS;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -310,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				92CE50531DC444CF002DEEBA /* LoginViewController.swift in Sources */,
-				2004696F1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift in Sources */,
 				20321EE81DB32EC00012770F /* DaysViewController.swift in Sources */,
 				20321EE61DB32EC00012770F /* AppDelegate.swift in Sources */,
 				20321EEE1DB32EC00012770F /* Mistletoe.xcdatamodeld in Sources */,
@@ -464,7 +460,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 5FW722TRYW;
+				CODE_SIGN_ENTITLEMENTS = Mistletoe/Mistletoe.entitlements;
+				DEVELOPMENT_TEAM = 4W29M3CXTS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Mistletoe/FacebookSDKs-iOS-4.16.1",
@@ -483,16 +480,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 5FW722TRYW;
+				CODE_SIGN_ENTITLEMENTS = Mistletoe/Mistletoe.entitlements;
+				DEVELOPMENT_TEAM = 4W29M3CXTS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Mistletoe/FacebookSDKs-iOS-4.16.1",
 				);
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Mistletoe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.Mistletoe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Mistletoe/Mistletoe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
