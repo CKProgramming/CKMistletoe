@@ -58,7 +58,7 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate{
 	}
 	
 	func loginButtonWillLogin(_ loginButton: FBSDKLoginButton!) -> Bool {
-		print("User logged out...")
+		print("User logged out...") //Why does this say logged out? the function is called WillLogin
 		return true
 	}
 
