@@ -11,7 +11,7 @@
 		202961A41DB5B3E600661920 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202961A31DB5B3E600661920 /* Images.xcassets */; };
 		202961AA1DB873A100661920 /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202961A91DB873A100661920 /* DaysCollectionViewCell.swift */; };
 		20321EE61DB32EC00012770F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321EE51DB32EC00012770F /* AppDelegate.swift */; };
-		20321EE81DB32EC00012770F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321EE71DB32EC00012770F /* ViewController.swift */; };
+		20321EE81DB32EC00012770F /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321EE71DB32EC00012770F /* DaysViewController.swift */; };
 		20321EEB1DB32EC00012770F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20321EE91DB32EC00012770F /* Main.storyboard */; settings = {ASSET_TAGS = (dayCard, ); }; };
 		20321EEE1DB32EC00012770F /* Mistletoe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20321EEC1DB32EC00012770F /* Mistletoe.xcdatamodeld */; };
 		20321EF31DB32EC00012770F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20321EF11DB32EC00012770F /* LaunchScreen.storyboard */; };
@@ -19,6 +19,7 @@
 		20321F091DB32EC00012770F /* MistletoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321F081DB32EC00012770F /* MistletoeUITests.swift */; };
 		20C1A2601DBD6439007B610A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C1A25E1DBD6439007B610A /* FBSDKCoreKit.framework */; };
 		20C1A2611DBD6439007B610A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */; };
+		92CE50531DC444CF002DEEBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE50521DC444CF002DEEBA /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,7 @@
 		202961A91DB873A100661920 /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
 		20321EE21DB32EC00012770F /* Mistletoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mistletoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20321EE51DB32EC00012770F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20321EE71DB32EC00012770F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20321EE71DB32EC00012770F /* DaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
 		20321EEA1DB32EC00012770F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20321EED1DB32EC00012770F /* Mistletoe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mistletoe.xcdatamodel; sourceTree = "<group>"; };
 		20321EF21DB32EC00012770F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.16.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		20C1A2621DBD6666007B610A /* Mistletoe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mistletoe-Bridging-Header.h"; sourceTree = "<group>"; };
 		20C1A2661DBD8866007B610A /* Mistletoe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mistletoe.entitlements; sourceTree = "<group>"; };
+		92CE50521DC444CF002DEEBA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +113,11 @@
 		20321EE41DB32EC00012770F /* Mistletoe */ = {
 			isa = PBXGroup;
 			children = (
-				20C1A2661DBD8866007B610A /* Mistletoe.entitlements */,
+				92CE50511DC4408A002DEEBA /* View Controllers */,
 				20321EE51DB32EC00012770F /* AppDelegate.swift */,
-				20321EE71DB32EC00012770F /* ViewController.swift */,
 				20321EE91DB32EC00012770F /* Main.storyboard */,
 				20321EF11DB32EC00012770F /* LaunchScreen.storyboard */,
+				20C1A2661DBD8866007B610A /* Mistletoe.entitlements */,
 				20321EF41DB32EC00012770F /* Info.plist */,
 				20321EEC1DB32EC00012770F /* Mistletoe.xcdatamodeld */,
 				202961A31DB5B3E600661920 /* Images.xcassets */,
@@ -144,6 +146,15 @@
 				20321F0A1DB32EC00012770F /* Info.plist */,
 			);
 			path = MistletoeUITests;
+			sourceTree = "<group>";
+		};
+		92CE50511DC4408A002DEEBA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20321EE71DB32EC00012770F /* DaysViewController.swift */,
+				92CE50521DC444CF002DEEBA /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,8 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CE50531DC444CF002DEEBA /* LoginViewController.swift in Sources */,
 				2004696F1DBEDEF50025868C /* ProtectedHomePageCollectionView.swift in Sources */,
-				20321EE81DB32EC00012770F /* ViewController.swift in Sources */,
+				20321EE81DB32EC00012770F /* DaysViewController.swift in Sources */,
 				20321EE61DB32EC00012770F /* AppDelegate.swift in Sources */,
 				20321EEE1DB32EC00012770F /* Mistletoe.xcdatamodeld in Sources */,
 				202961AA1DB873A100661920 /* DaysCollectionViewCell.swift in Sources */,
