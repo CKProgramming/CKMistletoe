@@ -16,8 +16,11 @@
 		20321EF31DB32EC00012770F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20321EF11DB32EC00012770F /* LaunchScreen.storyboard */; };
 		20321EFE1DB32EC00012770F /* MistletoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321EFD1DB32EC00012770F /* MistletoeTests.swift */; };
 		20321F091DB32EC00012770F /* MistletoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321F081DB32EC00012770F /* MistletoeUITests.swift */; };
+		36865D1624EC7A1D1B8973D4 /* Pods_MistletoeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EE2D7E10814CBB020B5276 /* Pods_MistletoeUITests.framework */; };
 		92975EF31DC5C773006F27D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 92975EF21DC5C773006F27D9 /* Podfile */; };
 		92CE50531DC444CF002DEEBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE50521DC444CF002DEEBA /* LoginViewController.swift */; };
+		C16DC663453D13BD0B180FC2 /* Pods_MistletoeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D316DBBA6364FBB62F750C7 /* Pods_MistletoeTests.framework */; };
+		EF804E5FEE8A65BD96991EF0 /* Pods_Mistletoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F164F29BCE329256F39E759E /* Pods_Mistletoe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16734745DB1D7667B486209D /* Pods-Mistletoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mistletoe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe.debug.xcconfig"; sourceTree = "<group>"; };
 		202961A31DB5B3E600661920 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		202961A91DB873A100661920 /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
 		20321EE21DB32EC00012770F /* Mistletoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mistletoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,8 +58,16 @@
 		20321F081DB32EC00012770F /* MistletoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistletoeUITests.swift; sourceTree = "<group>"; };
 		20321F0A1DB32EC00012770F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C1A2661DBD8866007B610A /* Mistletoe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mistletoe.entitlements; sourceTree = "<group>"; };
-		92975EF21DC5C773006F27D9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		732666AB22B4EB8B505580FF /* Pods-MistletoeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistletoeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistletoeUITests/Pods-MistletoeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7714B21A4B92F56BA30B89E2 /* Pods-MistletoeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistletoeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D316DBBA6364FBB62F750C7 /* Pods_MistletoeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistletoeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92975EF21DC5C773006F27D9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		92CE50521DC444CF002DEEBA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		92EE2D7E10814CBB020B5276 /* Pods_MistletoeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistletoeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E692FC57533D32A9FA53F5 /* Pods-MistletoeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistletoeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5DABB50C9B287B41867CC01 /* Pods-Mistletoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mistletoe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe.release.xcconfig"; sourceTree = "<group>"; };
+		D8DF222D4198835D617D5B78 /* Pods-MistletoeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistletoeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistletoeUITests/Pods-MistletoeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F164F29BCE329256F39E759E /* Pods_Mistletoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mistletoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF804E5FEE8A65BD96991EF0 /* Pods_Mistletoe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16DC663453D13BD0B180FC2 /* Pods_MistletoeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36865D1624EC7A1D1B8973D4 /* Pods_MistletoeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +107,7 @@
 				20321EFC1DB32EC00012770F /* MistletoeTests */,
 				20321F071DB32EC00012770F /* MistletoeUITests */,
 				20321EE31DB32EC00012770F /* Products */,
+				A649DB0E749F23E8D2BE9070 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +158,9 @@
 		92975EF11DC5A3C8006F27D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F164F29BCE329256F39E759E /* Pods_Mistletoe.framework */,
+				8D316DBBA6364FBB62F750C7 /* Pods_MistletoeTests.framework */,
+				92EE2D7E10814CBB020B5276 /* Pods_MistletoeUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,6 +182,19 @@
 			name = "User Interface";
 			sourceTree = "<group>";
 		};
+		A649DB0E749F23E8D2BE9070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16734745DB1D7667B486209D /* Pods-Mistletoe.debug.xcconfig */,
+				C5DABB50C9B287B41867CC01 /* Pods-Mistletoe.release.xcconfig */,
+				99E692FC57533D32A9FA53F5 /* Pods-MistletoeTests.debug.xcconfig */,
+				7714B21A4B92F56BA30B89E2 /* Pods-MistletoeTests.release.xcconfig */,
+				732666AB22B4EB8B505580FF /* Pods-MistletoeUITests.debug.xcconfig */,
+				D8DF222D4198835D617D5B78 /* Pods-MistletoeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20321F0D1DB32EC00012770F /* Build configuration list for PBXNativeTarget "Mistletoe" */;
 			buildPhases = (
+				09DCF0570872978E24B9FB56 /* [CP] Check Pods Manifest.lock */,
 				20321EDE1DB32EC00012770F /* Sources */,
 				20321EDF1DB32EC00012770F /* Frameworks */,
 				20321EE01DB32EC00012770F /* Resources */,
+				C6302000AA3C893903D4833F /* [CP] Embed Pods Frameworks */,
+				AFACB56F9841525372AD0E53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20321F101DB32EC00012770F /* Build configuration list for PBXNativeTarget "MistletoeTests" */;
 			buildPhases = (
+				57F7D293DC5248BEA6DC10E3 /* [CP] Check Pods Manifest.lock */,
 				20321EF51DB32EC00012770F /* Sources */,
 				20321EF61DB32EC00012770F /* Frameworks */,
 				20321EF71DB32EC00012770F /* Resources */,
+				EFB2683596E2B0C1910893C5 /* [CP] Embed Pods Frameworks */,
+				5FDEADEA9A2671C633E6F6A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20321F131DB32EC00012770F /* Build configuration list for PBXNativeTarget "MistletoeUITests" */;
 			buildPhases = (
+				3DB7CADE63CEBBF153D43E1A /* [CP] Check Pods Manifest.lock */,
 				20321F001DB32EC00012770F /* Sources */,
 				20321F011DB32EC00012770F /* Frameworks */,
 				20321F021DB32EC00012770F /* Resources */,
+				F32B5D20BB863BDEA3D9969D /* [CP] Embed Pods Frameworks */,
+				2D98F251BF31E5F8E622A941 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,6 +344,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09DCF0570872978E24B9FB56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2D98F251BF31E5F8E622A941 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistletoeUITests/Pods-MistletoeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DB7CADE63CEBBF153D43E1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57F7D293DC5248BEA6DC10E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FDEADEA9A2671C633E6F6A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFACB56F9841525372AD0E53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6302000AA3C893903D4833F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB2683596E2B0C1910893C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32B5D20BB863BDEA3D9969D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistletoeUITests/Pods-MistletoeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20321EDE1DB32EC00012770F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -370,6 +549,7 @@
 		20321F0B1DB32EC00012770F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -419,6 +599,7 @@
 		20321F0C1DB32EC00012770F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -460,6 +641,7 @@
 		};
 		20321F0E1DB32EC00012770F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16734745DB1D7667B486209D /* Pods-Mistletoe.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Mistletoe/Mistletoe.entitlements;
@@ -480,6 +662,7 @@
 		};
 		20321F0F1DB32EC00012770F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DABB50C9B287B41867CC01 /* Pods-Mistletoe.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Mistletoe/Mistletoe.entitlements;
@@ -501,8 +684,8 @@
 		};
 		20321F111DB32EC00012770F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E692FC57533D32A9FA53F5 /* Pods-MistletoeTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MistletoeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -515,8 +698,8 @@
 		};
 		20321F121DB32EC00012770F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7714B21A4B92F56BA30B89E2 /* Pods-MistletoeTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MistletoeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -529,8 +712,8 @@
 		};
 		20321F141DB32EC00012770F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732666AB22B4EB8B505580FF /* Pods-MistletoeUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MistletoeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeUITests;
@@ -542,8 +725,8 @@
 		};
 		20321F151DB32EC00012770F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8DF222D4198835D617D5B78 /* Pods-MistletoeUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MistletoeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeUITests;

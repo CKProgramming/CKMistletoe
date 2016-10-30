@@ -1,6 +1,4 @@
 platform :ios, '9.0'
-
-target 'Mistletoe' do
 use_frameworks!
 
 target 'Mistletoe' do
