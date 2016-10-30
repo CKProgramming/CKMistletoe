@@ -52,7 +52,6 @@
 		20321F041DB32EC00012770F /* MistletoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistletoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20321F081DB32EC00012770F /* MistletoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistletoeUITests.swift; sourceTree = "<group>"; };
 		20321F0A1DB32EC00012770F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C1A2621DBD6666007B610A /* Mistletoe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mistletoe-Bridging-Header.h"; sourceTree = "<group>"; };
 		20C1A2661DBD8866007B610A /* Mistletoe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mistletoe.entitlements; sourceTree = "<group>"; };
 		92CE50521DC444CF002DEEBA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +114,6 @@
 				20321EF41DB32EC00012770F /* Info.plist */,
 				20C1A2661DBD8866007B610A /* Mistletoe.entitlements */,
 				20321EEC1DB32EC00012770F /* Mistletoe.xcdatamodeld */,
-				20C1A2621DBD6666007B610A /* Mistletoe-Bridging-Header.h */,
 			);
 			path = Mistletoe;
 			sourceTree = "<group>";
