@@ -54,8 +54,8 @@
 		20321F041DB32EC00012770F /* MistletoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistletoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20321F081DB32EC00012770F /* MistletoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistletoeUITests.swift; sourceTree = "<group>"; };
 		20321F0A1DB32EC00012770F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C1A25E1DBD6439007B610A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.16.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.16.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		20C1A25E1DBD6439007B610A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "Mistletoe/FacebookSDKs-iOS-4.16.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "Mistletoe/FacebookSDKs-iOS-4.16.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		20C1A2621DBD6666007B610A /* Mistletoe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mistletoe-Bridging-Header.h"; sourceTree = "<group>"; };
 		20C1A2661DBD8866007B610A /* Mistletoe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mistletoe.entitlements; sourceTree = "<group>"; };
 		92CE50521DC444CF002DEEBA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				20321EE41DB32EC00012770F /* Mistletoe */,
+				92975EF11DC5A3C8006F27D9 /* Frameworks */,
 				20321EFC1DB32EC00012770F /* MistletoeTests */,
 				20321F071DB32EC00012770F /* MistletoeUITests */,
 				20321EE31DB32EC00012770F /* Products */,
@@ -121,8 +122,6 @@
 				20C1A2661DBD8866007B610A /* Mistletoe.entitlements */,
 				20321EEC1DB32EC00012770F /* Mistletoe.xcdatamodeld */,
 				20C1A2621DBD6666007B610A /* Mistletoe-Bridging-Header.h */,
-				20C1A25E1DBD6439007B610A /* FBSDKCoreKit.framework */,
-				20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */,
 			);
 			path = Mistletoe;
 			sourceTree = "<group>";
@@ -143,6 +142,15 @@
 				20321F0A1DB32EC00012770F /* Info.plist */,
 			);
 			path = MistletoeUITests;
+			sourceTree = "<group>";
+		};
+		92975EF11DC5A3C8006F27D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20C1A25E1DBD6439007B610A /* FBSDKCoreKit.framework */,
+				20C1A25F1DBD6439007B610A /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		92CE50511DC4408A002DEEBA /* View Controllers */ = {

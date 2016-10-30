@@ -77,7 +77,7 @@
                     <navigationItem key="navigationItem" id="rJV-Dn-HBS"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
-                        <outlet property="daysView" destination="6SJ-TY-gzg" id="wOk-Uf-AHz"/>
+                        <outlet property="daysView" destination="6SJ-TY-gzg" id="nAQ-3P-LNU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -108,6 +108,9 @@
                                     <constraint firstAttribute="height" constant="50" id="Dnd-QL-WAS"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="FbkButtonPressed:" destination="SWN-Cp-CXv" eventType="touchUpInside" id="6zc-3d-h6k"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -118,7 +121,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="8G2-YU-BVd"/>
                     <connections>
-                        <outlet property="btnFacebook" destination="pM1-X2-Gog" id="Rzw-ZW-cy9"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="loginToDays" id="cEw-P1-V50"/>
                     </connections>
                 </viewController>
