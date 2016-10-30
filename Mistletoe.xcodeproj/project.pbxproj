@@ -16,6 +16,7 @@
 		20321EF31DB32EC00012770F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20321EF11DB32EC00012770F /* LaunchScreen.storyboard */; };
 		20321EFE1DB32EC00012770F /* MistletoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321EFD1DB32EC00012770F /* MistletoeTests.swift */; };
 		20321F091DB32EC00012770F /* MistletoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20321F081DB32EC00012770F /* MistletoeUITests.swift */; };
+		92975EF31DC5C773006F27D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 92975EF21DC5C773006F27D9 /* Podfile */; };
 		92CE50531DC444CF002DEEBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE50521DC444CF002DEEBA /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		20321F081DB32EC00012770F /* MistletoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistletoeUITests.swift; sourceTree = "<group>"; };
 		20321F0A1DB32EC00012770F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C1A2661DBD8866007B610A /* Mistletoe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mistletoe.entitlements; sourceTree = "<group>"; };
+		92975EF21DC5C773006F27D9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		92CE50521DC444CF002DEEBA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 		20321ED91DB32EC00012770F = {
 			isa = PBXGroup;
 			children = (
+				92975EF21DC5C773006F27D9 /* Podfile */,
 				20321EE41DB32EC00012770F /* Mistletoe */,
 				92975EF11DC5A3C8006F27D9 /* Frameworks */,
 				20321EFC1DB32EC00012770F /* MistletoeTests */,
@@ -279,6 +282,7 @@
 			files = (
 				202961A41DB5B3E600661920 /* Images.xcassets in Resources */,
 				20321EF31DB32EC00012770F /* LaunchScreen.storyboard in Resources */,
+				92975EF31DC5C773006F27D9 /* Podfile in Resources */,
 				20321EEB1DB32EC00012770F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
