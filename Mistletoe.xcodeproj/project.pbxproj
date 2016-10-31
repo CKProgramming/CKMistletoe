@@ -19,6 +19,7 @@
 		927729741DC6BE96001C97DF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927729701DC6BE96001C97DF /* FBSDKLoginKit.framework */; };
 		927729751DC6BE96001C97DF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927729711DC6BE96001C97DF /* FBSDKShareKit.framework */; };
 		9277297B1DC6CC86001C97DF /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9277297A1DC6CC86001C97DF /* DaysViewController.swift */; };
+		92C64AA51DC6E0E8006828CD /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C64AA41DC6E0E8006828CD /* DaysCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		927729711DC6BE96001C97DF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		9277297A1DC6CC86001C97DF /* DaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
 		9277297C1DC6D26F001C97DF /* Mistletoe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mistletoe.entitlements; sourceTree = "<group>"; };
+		92C64AA41DC6E0E8006828CD /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		927729791DC6CC60001C97DF /* User Interface */ = {
 			isa = PBXGroup;
 			children = (
+				92C64AA41DC6E0E8006828CD /* DaysCollectionViewCell.swift */,
 			);
 			name = "User Interface";
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				9277297B1DC6CC86001C97DF /* DaysViewController.swift in Sources */,
 				9277292C1DC6B928001C97DF /* LoginViewController.swift in Sources */,
 				9277292A1DC6B928001C97DF /* AppDelegate.swift in Sources */,
+				92C64AA51DC6E0E8006828CD /* DaysCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
