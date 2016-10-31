@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20321EE11DB32EC00012770F"
+               BlueprintIdentifier = "927729251DC6B927001C97DF"
                BuildableName = "Mistletoe.app"
                BlueprintName = "Mistletoe"
                ReferencedContainer = "container:Mistletoe.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20321EF81DB32EC00012770F"
+               BlueprintIdentifier = "927729391DC6B928001C97DF"
                BuildableName = "MistletoeTests.xctest"
                BlueprintName = "MistletoeTests"
                ReferencedContainer = "container:Mistletoe.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20321F031DB32EC00012770F"
+               BlueprintIdentifier = "927729441DC6B928001C97DF"
                BuildableName = "MistletoeUITests.xctest"
                BlueprintName = "MistletoeUITests"
                ReferencedContainer = "container:Mistletoe.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20321EE11DB32EC00012770F"
+            BlueprintIdentifier = "927729251DC6B927001C97DF"
             BuildableName = "Mistletoe.app"
             BlueprintName = "Mistletoe"
             ReferencedContainer = "container:Mistletoe.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20321EE11DB32EC00012770F"
+            BlueprintIdentifier = "927729251DC6B927001C97DF"
             BuildableName = "Mistletoe.app"
             BlueprintName = "Mistletoe"
             ReferencedContainer = "container:Mistletoe.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20321EE11DB32EC00012770F"
+            BlueprintIdentifier = "927729251DC6B927001C97DF"
             BuildableName = "Mistletoe.app"
             BlueprintName = "Mistletoe"
             ReferencedContainer = "container:Mistletoe.xcodeproj">

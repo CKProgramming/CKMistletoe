@@ -2,8 +2,8 @@
 //  MistletoeUITests.swift
 //  MistletoeUITests
 //
-//  Created by Ryan Clark on 10/15/16.
-//  Copyright © 2016 Ryan Clark. All rights reserved.
+//  Created by Zach on 10/30/16.
+//  Copyright © 2016 Zach. All rights reserved.
 //
 
 import XCTest
