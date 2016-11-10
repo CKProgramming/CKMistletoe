@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		204BF6A91DCC189A00DB1696 /* MistletoeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6A81DCC189A00DB1696 /* MistletoeMapViewController.swift */; };
-		204BF6AB1DCC253E00DB1696 /* MistletoeMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6AA1DCC253E00DB1696 /* MistletoeMarks.swift */; };
+		204BF6AB1DCC253E00DB1696 /* MistletoeMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6AA1DCC253E00DB1696 /* MistletoeMarker.swift */; };
 		204BF6AD1DCC259600DB1696 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6AC1DCC259600DB1696 /* Utilities.swift */; };
 		9277292A1DC6B928001C97DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927729291DC6B928001C97DF /* AppDelegate.swift */; };
 		9277292C1DC6B928001C97DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9277292B1DC6B928001C97DF /* LoginViewController.swift */; };
@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		204BF6A81DCC189A00DB1696 /* MistletoeMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMapViewController.swift; sourceTree = "<group>"; };
-		204BF6AA1DCC253E00DB1696 /* MistletoeMarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMarks.swift; sourceTree = "<group>"; };
+		204BF6AA1DCC253E00DB1696 /* MistletoeMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMarker.swift; sourceTree = "<group>"; };
 		204BF6AC1DCC259600DB1696 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		927729261DC6B928001C97DF /* Mistletoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mistletoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927729291DC6B928001C97DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 				927729781DC6CC57001C97DF /* Controllers */,
 				927729291DC6B928001C97DF /* AppDelegate.swift */,
 				204BF6A81DCC189A00DB1696 /* MistletoeMapViewController.swift */,
-				204BF6AA1DCC253E00DB1696 /* MistletoeMarks.swift */,
+				204BF6AA1DCC253E00DB1696 /* MistletoeMarker.swift */,
 				204BF6AC1DCC259600DB1696 /* Utilities.swift */,
 				9277292D1DC6B928001C97DF /* Main.storyboard */,
 				927729301DC6B928001C97DF /* Assets.xcassets */,
@@ -427,7 +427,7 @@
 				9277292A1DC6B928001C97DF /* AppDelegate.swift in Sources */,
 				92C64AA51DC6E0E8006828CD /* DaysCollectionViewCell.swift in Sources */,
 				204BF6A91DCC189A00DB1696 /* MistletoeMapViewController.swift in Sources */,
-				204BF6AB1DCC253E00DB1696 /* MistletoeMarks.swift in Sources */,
+				204BF6AB1DCC253E00DB1696 /* MistletoeMarker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
