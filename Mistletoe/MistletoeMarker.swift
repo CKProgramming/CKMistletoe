@@ -24,7 +24,7 @@ enum EventType: String {
     case onExit = "On Exit"
 }
 
-class MistloeMarker: NSObject, MKAnnotation {
+class MistletoeMarker: NSObject, MKAnnotation {
     
     var coordinate: CLLocationCoordinate2D
     var radius: CLLocationDistance

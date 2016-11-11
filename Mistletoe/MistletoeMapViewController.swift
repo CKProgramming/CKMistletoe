@@ -19,7 +19,7 @@ class MistletoeMapViewController: UIViewController {
     
     @IBOutlet weak var mapView: MKMapView!
     
-    var geotifications = [MistloeMarker]()
+    var mistletoeMarkers = [MistletoeMarker]()
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -29,16 +29,16 @@ class MistletoeMapViewController: UIViewController {
         // 2
         locationManager.requestAlwaysAuthorization()
         // 3
-        loadAllGeotifications()
+        loadAllMistletoeMarker()
     }
     
     // MARK: Loading and saving functions
-    func loadAllGeotifications() {
-        geotifications = []
+    func loadAllMistletoeMarker() {
+        mistletoeMarkers = []
         guard let savedItems = UserDefaults.standard.array(forKey: PreferencesKeys.savedItems) else { return }
         for savedItem in savedItems {
-            guard let geotification = NSKeyedUnarchiver.unarchiveObject(with: savedItem as! Data) as? MistloeMarker else { continue }
-            add(geotification: geotification)
+            guard let mistletoemarker = NSKeyedUnarchiver.unarchiveObject(with: savedItem as! Data) as? MistletoeMarker else { continue }
+            add(mistletoemarker: mistletoemarker)
         }
     }
     
@@ -46,14 +46,14 @@ class MistletoeMapViewController: UIViewController {
         
         // 1
         let clampedRadius = min(radius, locationManager.maximumRegionMonitoringDistance)
-        let geotification = MistloeMarker(coordinate: coordinate, radius: clampedRadius, identifier: identifier, eventType: eventType)
-        add(geotification: geotification)
+        let mistletoemarker = MistletoeMarker(coordinate: coordinate, radius: clampedRadius, identifier: identifier, eventType: eventType)
+        add(mistletoemarker: mistletoemarker)
         // 2
-        startMonitoring(geotification: geotification)
-        saveAllGeotifications()
+        startMonitoring(mistletoemarker: mistletoemarker)
+        saveAllMistletoeMarker()
     }
     
-    func region(withGeotification geotification: MistloeMarker) -> CLCircularRegion {
+    func region(withGeotification geotification: MistletoeMarker) -> CLCircularRegion {
         // 1
         let region = CLCircularRegion(center: geotification.coordinate, radius: geotification.radius, identifier: geotification.identifier)
         // 2
@@ -62,7 +62,7 @@ class MistletoeMapViewController: UIViewController {
         return region
     }
     
-    func startMonitoring(geotification: MistloeMarker) {
+    func startMonitoring(mistletoemarker: MistletoeMarker) {
         // 1
         if !CLLocationManager.isMonitoringAvailable(for: CLCircularRegion.self) {
             showAlert(withTitle:"Error", message: "Geofencing is not supported on this device!")
@@ -73,14 +73,14 @@ class MistletoeMapViewController: UIViewController {
             showAlert(withTitle:"Warning", message: "Your geotification is saved but will only be activated once you grant Geotify permission to access the device location.")
         }
         // 3
-        let region = self.region(withGeotification: geotification)
+        let region = self.region(withGeotification: mistletoemarker)
         // 4
         locationManager.startMonitoring(for: region)
     }
     
-    func saveAllGeotifications() {
+    func saveAllMistletoeMarker() {
         var items: [Data] = []
-        for geotification in geotifications {
+        for geotification in mistletoeMarkers {
             let item = NSKeyedArchiver.archivedData(withRootObject: geotification)
             items.append(item)
         }
@@ -96,19 +96,14 @@ class MistletoeMapViewController: UIViewController {
     }
     
     // MARK: Functions that update the model/associated views with geotification changes
-    func add(geotification: MistloeMarker) {
-        geotifications.append(geotification)
-        mapView.addAnnotation(geotification)
-        addRadiusOverlay(forGeotification: geotification)
-        updateGeotificationsCount()
-    }
-    
-    func updateGeotificationsCount() {
-        title = "Geotifications (\(geotifications.count))"
+    func add(mistletoemarker: MistletoeMarker) {
+        mistletoeMarkers.append(mistletoemarker)
+        mapView.addAnnotation(mistletoemarker)
+        addRadiusOverlay(forGeotification: mistletoemarker)
     }
     
     // MARK: Map overlay functions
-    func addRadiusOverlay(forGeotification geotification: MistloeMarker) {
+    func addRadiusOverlay(forGeotification geotification: MistletoeMarker) {
         mapView?.add(MKCircle(center: geotification.coordinate, radius: geotification.radius))
     }
 }
