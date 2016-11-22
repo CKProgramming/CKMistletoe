@@ -10,6 +10,7 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import CoreLocation
+import Spring
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
@@ -57,12 +58,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
 	
 	func locationManager(_ manager: CLLocationManager,
 	                     didUpdateLocations locations: [CLLocation]) {
-		let currentCoordinates = locations[(locations.count - 1)].coordinate
-		let latitude = currentCoordinates.latitude
-		let longitude = currentCoordinates.longitude
+//		let currentCoordinates = locations[(locations.count - 1)].coordinate
+//		let latitude = currentCoordinates.latitude
+//		let longitude = currentCoordinates.longitude
 //		print("Latitude = \(latitude) and Longitude = \(longitude)")
 	}
 
+    func showLogin() {
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = mainStoryboard.instantiateViewController(withIdentifier: "Login") as UIViewController
+        let springView = vc.view as! SpringView
+        springView.animation = "fadeInDown"
+        springView.curve = "linear"
+        springView.duration = 1.5
+        self.window?.rootViewController = vc;
+        springView.animate()
+    }
 
 }
 

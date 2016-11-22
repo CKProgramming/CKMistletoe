@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6lU-pQ-uIY">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,44 +14,64 @@
         <!--Mistletoe-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Mistletoe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Mistletoe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="SpringView" customModule="Spring">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kd7-Kt-Zjh">
-                                <rect key="frame" x="87" y="308" width="200" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="50" y="527" width="275" height="65"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="VK4-3x-bWP"/>
-                                    <constraint firstAttribute="height" constant="50" id="wIf-ic-bf9"/>
+                                    <constraint firstAttribute="height" constant="65" id="wIf-ic-bf9"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Login with facebook">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.15294117647058825" green="0.23529411764705882" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="facebookLoginClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KLF-fF-yVT"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mistletoe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ybs-be-DiP">
+                                <rect key="frame" x="66" y="95" width="243" height="57.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
+                                <color key="textColor" red="0.1529411765" green="0.23529411759999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mistletoe Icon" translatesAutoresizingMaskIntoConstraints="NO" id="sc1-Om-VJm">
+                                <rect key="frame" x="66" y="212" width="243" height="243"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sc1-Om-VJm" secondAttribute="height" multiplier="1:1" id="EAo-Tm-8fW"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.68627450980000004" green="0.56862745100000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Kd7-Kt-Zjh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8z0-IA-5y9"/>
-                            <constraint firstItem="Kd7-Kt-Zjh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EgW-Av-GhA"/>
+                            <constraint firstAttribute="trailing" secondItem="Kd7-Kt-Zjh" secondAttribute="trailing" constant="50" id="FY6-pw-UpP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sc1-Om-VJm" secondAttribute="trailing" constant="50" id="blz-cs-MDK"/>
+                            <constraint firstItem="sc1-Om-VJm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="c9G-Hh-yQa"/>
+                            <constraint firstItem="sc1-Om-VJm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dPb-3V-aUV"/>
+                            <constraint firstItem="sc1-Om-VJm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fbP-9R-yic"/>
+                            <constraint firstItem="Kd7-Kt-Zjh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="hDg-4A-Q4U"/>
+                            <constraint firstItem="Ybs-be-DiP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="mpe-gv-9gz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kd7-Kt-Zjh" secondAttribute="bottom" constant="75" id="sj9-nb-iBa"/>
+                            <constraint firstItem="Ybs-be-DiP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="75" id="tun-FU-dfW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ybs-be-DiP" secondAttribute="trailing" constant="50" id="vUD-c9-ncC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Mistletoe" id="cOb-rt-T54"/>
                     <connections>
-                        <segue destination="vUU-zp-1ke" kind="show" identifier="loginToDays" id="yea-Fu-1sy"/>
+                        <outlet property="facebookLoginButton" destination="Kd7-Kt-Zjh" id="bsH-eh-8NT"/>
+                        <segue destination="sEm-ff-fdA" kind="show" identifier="loginToDays" id="iAT-ev-Sws"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1056.8" y="123.68815592203899"/>
+            <point key="canvasLocation" x="1274" y="124"/>
         </scene>
         <!--Days-->
         <scene sceneID="v8L-sZ-Qd3">
@@ -65,74 +86,89 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yWC-1q-eWb">
-                                <rect key="frame" x="36" y="164" width="303" height="403"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.68627450980000004" green="0.56862745100000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="y12-mz-X2Y">
-                                    <size key="itemSize" width="297" height="311"/>
+                                    <size key="itemSize" width="345" height="467"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="day" id="u7R-5j-frW" customClass="DaysCollectionViewCell" customModule="Mistletoe" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="14" width="297" height="311"/>
+                                        <rect key="frame" x="0.0" y="36" width="345" height="467"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="297" height="311"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="345" height="467"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OQW-TO-fYD">
-                                                    <rect key="frame" x="13" y="8" width="271" height="295"/>
-                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hsp-es-8aR">
+                                                    <rect key="frame" x="48" y="58" width="249" height="336"/>
+                                                    <color key="backgroundColor" red="0.60392156862745094" green="0.011764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dec 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7G-U9-QTz" customClass="SpringLabel" customModule="Spring">
+                                                    <rect key="frame" x="119" y="-0.5" width="108" height="50.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
+                                                    <color key="textColor" red="0.011764705882352941" green="0.27843137254901962" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="bottomMargin" secondItem="OQW-TO-fYD" secondAttribute="bottom" id="4QS-jb-ZU8"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="OQW-TO-fYD" secondAttribute="trailing" constant="5" id="G4W-zU-6c8"/>
-                                            <constraint firstItem="OQW-TO-fYD" firstAttribute="leading" secondItem="u7R-5j-frW" secondAttribute="leadingMargin" constant="5" id="NWV-BQ-MlR"/>
-                                            <constraint firstItem="OQW-TO-fYD" firstAttribute="top" secondItem="u7R-5j-frW" secondAttribute="topMargin" id="hzZ-uH-hIO"/>
+                                            <constraint firstItem="hsp-es-8aR" firstAttribute="leading" secondItem="u7R-5j-frW" secondAttribute="leadingMargin" constant="40" id="AfA-7K-tWK"/>
+                                            <constraint firstItem="B7G-U9-QTz" firstAttribute="centerX" secondItem="u7R-5j-frW" secondAttribute="centerX" id="c64-Kr-Mky"/>
+                                            <constraint firstItem="hsp-es-8aR" firstAttribute="top" secondItem="B7G-U9-QTz" secondAttribute="bottom" constant="8" id="k69-ud-21H"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="hsp-es-8aR" secondAttribute="trailing" constant="40" id="wJf-RI-Xu3"/>
+                                            <constraint firstItem="hsp-es-8aR" firstAttribute="top" secondItem="u7R-5j-frW" secondAttribute="topMargin" constant="50" id="zO1-NV-J1Q"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="hsp-es-8aR" secondAttribute="bottom" constant="65" id="zVS-9k-nVc"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="daysBackground" destination="OQW-TO-fYD" id="fGD-lD-9M2"/>
+                                            <outlet property="dayLabel" destination="B7G-U9-QTz" id="5Ci-cE-ZIx"/>
+                                            <outlet property="daysBackground" destination="hsp-es-8aR" id="dpd-DL-bhq"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.68627450980000004" green="0.56862745100000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="yWC-1q-eWb" secondAttribute="trailing" constant="20" id="0Lj-Ui-iQh"/>
-                            <constraint firstItem="yWC-1q-eWb" firstAttribute="leading" secondItem="PiU-wM-8yp" secondAttribute="leadingMargin" constant="20" id="4H7-oq-vEA"/>
-                            <constraint firstItem="jYC-K3-tFZ" firstAttribute="top" secondItem="yWC-1q-eWb" secondAttribute="bottom" constant="100" id="NM3-f3-fYL"/>
-                            <constraint firstItem="yWC-1q-eWb" firstAttribute="top" secondItem="UDn-eM-hXT" secondAttribute="bottom" constant="100" id="kvL-Xe-Xh5"/>
+                            <constraint firstItem="jYC-K3-tFZ" firstAttribute="top" secondItem="yWC-1q-eWb" secondAttribute="bottom" id="NM3-f3-fYL"/>
+                            <constraint firstAttribute="trailing" secondItem="yWC-1q-eWb" secondAttribute="trailing" id="iN9-rh-WrA"/>
+                            <constraint firstItem="yWC-1q-eWb" firstAttribute="top" secondItem="UDn-eM-hXT" secondAttribute="bottom" id="kvL-Xe-Xh5"/>
+                            <constraint firstItem="yWC-1q-eWb" firstAttribute="leading" secondItem="PiU-wM-8yp" secondAttribute="leading" id="vHh-if-ots"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Days" id="Zbz-dk-ysx"/>
+                    <navigationItem key="navigationItem" title="Days" id="Zbz-dk-ysx">
+                        <barButtonItem key="backBarButtonItem" title="Logout" id="Gd3-gp-Vhh"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="daysCollection" destination="yWC-1q-eWb" id="f7u-4U-cQJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gKK-pX-Prh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2024.8" y="123.68815592203899"/>
+            <point key="canvasLocation" x="3280.8000000000002" y="123.68815592203899"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="ijD-X6-1Ql">
+        <scene sceneID="PKH-Gh-yQk">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6lU-pQ-uIY" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sEm-ff-fdA" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="D8j-j0-Rg1">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="6wm-3w-YeZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="4rb-Lc-KJA"/>
+                        <segue destination="vUU-zp-1ke" kind="relationship" relationship="rootViewController" id="IHD-tV-X9I"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VDI-m1-D2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iki-bD-vi2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="121" y="124"/>
+            <point key="canvasLocation" x="2341.5999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Mistletoe Icon" width="125" height="125"/>
+    </resources>
 </document>
