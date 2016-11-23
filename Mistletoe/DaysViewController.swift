@@ -30,7 +30,7 @@ class DaysViewController: UIViewController, UICollectionViewDelegate, UICollecti
 	}
 	
     func logoutTapped() {
-        //TODO: May have to add more to this but for now just send them back to login view
+        identityManager().token = nil
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         appDelegate.showLogin()
     }

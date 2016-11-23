@@ -76,7 +76,7 @@
         <!--Days-->
         <scene sceneID="v8L-sZ-Qd3">
             <objects>
-                <viewController id="vUU-zp-1ke" customClass="DaysViewController" customModule="Mistletoe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="daysView" id="vUU-zp-1ke" customClass="DaysViewController" customModule="Mistletoe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UDn-eM-hXT"/>
                         <viewControllerLayoutGuide type="bottom" id="jYC-K3-tFZ"/>
@@ -152,7 +152,7 @@
         <!--Navigation Controller-->
         <scene sceneID="PKH-Gh-yQk">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sEm-ff-fdA" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="daysNavController" automaticallyAdjustsScrollViewInsets="NO" id="sEm-ff-fdA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="6wm-3w-YeZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

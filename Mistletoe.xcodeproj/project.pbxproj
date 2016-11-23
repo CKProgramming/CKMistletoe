@@ -23,6 +23,10 @@
 		92C64AA51DC6E0E8006828CD /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C64AA41DC6E0E8006828CD /* DaysCollectionViewCell.swift */; };
 		BA25E3A21DE3C7C40078EB73 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3A11DE3C7C40078EB73 /* Colors.swift */; };
 		BA25E3A41DE3E7C70078EB73 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BA25E3A31DE3E7C70078EB73 /* Podfile */; };
+		BA25E3AA1DE52F5F0078EB73 /* MistletoeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3A71DE52F5F0078EB73 /* MistletoeMapViewController.swift */; };
+		BA25E3AB1DE52F5F0078EB73 /* MistletoeMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3A81DE52F5F0078EB73 /* MistletoeMarker.swift */; };
+		BA25E3AC1DE52F5F0078EB73 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3A91DE52F5F0078EB73 /* Utilities.swift */; };
+		BA25E3AF1DE534DE0078EB73 /* IdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3AE1DE534DE0078EB73 /* IdentityManager.swift */; };
 		CA25FDE08088E2E303455FB2 /* Pods_MistletoeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B346B33ECCF34578A35D74E /* Pods_MistletoeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +76,10 @@
 		92C64AA41DC6E0E8006828CD /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
 		BA25E3A11DE3C7C40078EB73 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		BA25E3A31DE3E7C70078EB73 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA25E3A71DE52F5F0078EB73 /* MistletoeMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMapViewController.swift; sourceTree = "<group>"; };
+		BA25E3A81DE52F5F0078EB73 /* MistletoeMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMarker.swift; sourceTree = "<group>"; };
+		BA25E3A91DE52F5F0078EB73 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		BA25E3AE1DE534DE0078EB73 /* IdentityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,13 +139,11 @@
 		927729281DC6B928001C97DF /* Mistletoe */ = {
 			isa = PBXGroup;
 			children = (
+				BA25E3AD1DE534B60078EB73 /* Services */,
 				BA25E3A01DE3C7980078EB73 /* Extensions */,
 				927729791DC6CC60001C97DF /* User Interface */,
 				927729781DC6CC57001C97DF /* Controllers */,
 				927729291DC6B928001C97DF /* AppDelegate.swift */,
-				204BF6A81DCC189A00DB1696 /* MistletoeMapViewController.swift */,
-				204BF6AA1DCC253E00DB1696 /* MistletoeMarker.swift */,
-				204BF6AC1DCC259600DB1696 /* Utilities.swift */,
 				9277292D1DC6B928001C97DF /* Main.storyboard */,
 				927729321DC6B928001C97DF /* LaunchScreen.storyboard */,
 				927729301DC6B928001C97DF /* Assets.xcassets */,
@@ -181,6 +187,7 @@
 		927729781DC6CC57001C97DF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA25E3A71DE52F5F0078EB73 /* MistletoeMapViewController.swift */,
 				9277292B1DC6B928001C97DF /* LoginViewController.swift */,
 				9277297A1DC6CC86001C97DF /* DaysViewController.swift */,
 			);
@@ -199,8 +206,18 @@
 			isa = PBXGroup;
 			children = (
 				BA25E3A11DE3C7C40078EB73 /* Colors.swift */,
+				BA25E3A91DE52F5F0078EB73 /* Utilities.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BA25E3AD1DE534B60078EB73 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA25E3A81DE52F5F0078EB73 /* MistletoeMarker.swift */,
+				BA25E3AE1DE534DE0078EB73 /* IdentityManager.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		CC2BE4D5094AAAA4BEBA7FD7 /* Pods */ = {
@@ -456,12 +473,13 @@
 			files = (
 				9277297B1DC6CC86001C97DF /* DaysViewController.swift in Sources */,
 				BA25E3A21DE3C7C40078EB73 /* Colors.swift in Sources */,
+				BA25E3AA1DE52F5F0078EB73 /* MistletoeMapViewController.swift in Sources */,
 				9277292C1DC6B928001C97DF /* LoginViewController.swift in Sources */,
-				204BF6AD1DCC259600DB1696 /* Utilities.swift in Sources */,
 				9277292A1DC6B928001C97DF /* AppDelegate.swift in Sources */,
 				92C64AA51DC6E0E8006828CD /* DaysCollectionViewCell.swift in Sources */,
-				204BF6A91DCC189A00DB1696 /* MistletoeMapViewController.swift in Sources */,
-				204BF6AB1DCC253E00DB1696 /* MistletoeMarker.swift in Sources */,
+				BA25E3AF1DE534DE0078EB73 /* IdentityManager.swift in Sources */,
+				BA25E3AC1DE52F5F0078EB73 /* Utilities.swift in Sources */,
+				BA25E3AB1DE52F5F0078EB73 /* MistletoeMarker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

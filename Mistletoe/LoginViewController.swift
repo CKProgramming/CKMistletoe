@@ -9,6 +9,14 @@
 import UIKit
 import FBSDKLoginKit
 
+func appDelegate() -> AppDelegate {
+    return UIApplication.shared.delegate as! AppDelegate
+}
+
+func identityManager() -> IdentityManager {
+    return appDelegate().identityManager
+}
+
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var facebookLoginButton: UIButton!
@@ -29,6 +37,7 @@ class LoginViewController: UIViewController {
 			if error != nil {
 				print("Error \(error!.localizedDescription)")
 			} else {
+                identityManager().token = result?.token.tokenString ?? ""
 				self.performSegue(withIdentifier: "loginToDays", sender: sender)
 			}
 		})
