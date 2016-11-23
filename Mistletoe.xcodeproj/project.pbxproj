@@ -27,6 +27,8 @@
 		BA25E3AB1DE52F5F0078EB73 /* MistletoeMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3A81DE52F5F0078EB73 /* MistletoeMarker.swift */; };
 		BA25E3AC1DE52F5F0078EB73 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3A91DE52F5F0078EB73 /* Utilities.swift */; };
 		BA25E3AF1DE534DE0078EB73 /* IdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3AE1DE534DE0078EB73 /* IdentityManager.swift */; };
+		BA25E3B11DE549260078EB73 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3B01DE549260078EB73 /* SettingsViewController.swift */; };
+		BA25E3B31DE556910078EB73 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3B21DE556910078EB73 /* NavigationController.swift */; };
 		CA25FDE08088E2E303455FB2 /* Pods_MistletoeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B346B33ECCF34578A35D74E /* Pods_MistletoeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +82,8 @@
 		BA25E3A81DE52F5F0078EB73 /* MistletoeMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMarker.swift; sourceTree = "<group>"; };
 		BA25E3A91DE52F5F0078EB73 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		BA25E3AE1DE534DE0078EB73 /* IdentityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityManager.swift; sourceTree = "<group>"; };
+		BA25E3B01DE549260078EB73 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BA25E3B21DE556910078EB73 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,9 +191,11 @@
 		927729781DC6CC57001C97DF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BA25E3A71DE52F5F0078EB73 /* MistletoeMapViewController.swift */,
-				9277292B1DC6B928001C97DF /* LoginViewController.swift */,
 				9277297A1DC6CC86001C97DF /* DaysViewController.swift */,
+				9277292B1DC6B928001C97DF /* LoginViewController.swift */,
+				BA25E3A71DE52F5F0078EB73 /* MistletoeMapViewController.swift */,
+				BA25E3B21DE556910078EB73 /* NavigationController.swift */,
+				BA25E3B01DE549260078EB73 /* SettingsViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -214,8 +220,8 @@
 		BA25E3AD1DE534B60078EB73 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				BA25E3A81DE52F5F0078EB73 /* MistletoeMarker.swift */,
 				BA25E3AE1DE534DE0078EB73 /* IdentityManager.swift */,
+				BA25E3A81DE52F5F0078EB73 /* MistletoeMarker.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -471,9 +477,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA25E3B31DE556910078EB73 /* NavigationController.swift in Sources */,
 				9277297B1DC6CC86001C97DF /* DaysViewController.swift in Sources */,
 				BA25E3A21DE3C7C40078EB73 /* Colors.swift in Sources */,
 				BA25E3AA1DE52F5F0078EB73 /* MistletoeMapViewController.swift in Sources */,
+				BA25E3B11DE549260078EB73 /* SettingsViewController.swift in Sources */,
 				9277292C1DC6B928001C97DF /* LoginViewController.swift in Sources */,
 				9277292A1DC6B928001C97DF /* AppDelegate.swift in Sources */,
 				92C64AA51DC6E0E8006828CD /* DaysCollectionViewCell.swift in Sources */,
