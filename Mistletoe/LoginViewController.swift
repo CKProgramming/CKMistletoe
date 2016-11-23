@@ -8,6 +8,7 @@
 
 import UIKit
 import FBSDKLoginKit
+import Material
 
 func appDelegate() -> AppDelegate {
     return UIApplication.shared.delegate as! AppDelegate
@@ -23,7 +24,7 @@ class LoginViewController: UIViewController {
     
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		facebookLoginButton.layer.borderColor = UIColor.mistletoeDarkGreen(1).cgColor
+		facebookLoginButton.layer.borderColor = Color.mistletoeDarkGreen(1).cgColor
         facebookLoginButton.layer.borderWidth = 5
 	}
 
