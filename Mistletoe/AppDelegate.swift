@@ -10,11 +10,13 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import CoreLocation
+import Spring
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
 	let locationManager = CLLocationManager()
 	var window: UIWindow?
+    let identityManager = IdentityManager()
 	
 	func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
 		return FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
@@ -25,8 +27,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		locationManager.desiredAccuracy = kCLLocationAccuracyBest
 		locationManager.requestWhenInUseAuthorization()
 		locationManager.startUpdatingLocation()
+        
+        //?? means it returns either the left operand(self.identityManager.token) unwrapped or the right operand("")
+        if !(self.identityManager.token ?? "").isEmpty {
+            goToDaysView()
+        }
+        
 		return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
 	}
+    
+    private func goToDaysView() {
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let navController = mainStoryboard.instantiateViewController(withIdentifier: "daysNavController") as! UINavigationController
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window!.rootViewController = navController
+        window!.makeKeyAndVisible()
+    }
 
 	func applicationWillResignActive(_ application: UIApplication) {
 		// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -44,7 +60,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func applicationDidBecomeActive(_ application: UIApplication) {
 		// Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-		
 	}
 
 	func applicationWillTerminate(_ application: UIApplication) {
@@ -54,9 +69,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func handleEvent(forRegion region: CLRegion!) {
         print("Geofence triggered!")
     }
-}
-
-extension AppDelegate: CLLocationManagerDelegate {
+    
+    func showLogin() {
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = mainStoryboard.instantiateViewController(withIdentifier: "Login") as UIViewController
+        let springView = vc.view as! SpringView
+        springView.animation = "fadeInDown"
+        springView.curve = "linear"
+        springView.duration = 1.5
+        self.window?.rootViewController = vc;
+        springView.animate()
+    }
     
     func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
         if region is CLCircularRegion {
@@ -70,4 +93,3 @@ extension AppDelegate: CLLocationManagerDelegate {
         }
     }
 }
-

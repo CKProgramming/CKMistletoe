@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import Spring
 
 class DaysCollectionViewCell: UICollectionViewCell {
 	
-	@IBOutlet weak var daysBackground: UIImageView!
+	@IBOutlet weak var daysBackground: UIView!
+    @IBOutlet weak var dayLabel: SpringLabel!
 }
