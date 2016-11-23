@@ -51,11 +51,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func applicationWillTerminate(_ application: UIApplication) {
 		// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 	}
+<<<<<<< HEAD
+	
+	func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+		print("Error: " + error.localizedDescription)
+	}
+	
+	func locationManager(_ manager: CLLocationManager,
+	                     didUpdateLocations locations: [CLLocation]) {
+//		let currentCoordinates = locations[(locations.count - 1)].coordinate
+//		let latitude = currentCoordinates.latitude
+//		let longitude = currentCoordinates.longitude
+//		print("Latitude = \(latitude) and Longitude = \(longitude)")
+	}
 
-    func handleEvent(forRegion region: CLRegion!) {
-        print("Geofence triggered!")
-    }
-}
     func showLogin() {
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = mainStoryboard.instantiateViewController(withIdentifier: "Login") as UIViewController
@@ -66,6 +75,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = vc;
         springView.animate()
     }
+=======
+
+    func handleEvent(forRegion region: CLRegion!) {
+        print("Geofence triggered!")
+    }
+}
+>>>>>>> ee227b6f24d869e61622a4696defbe0084dd3113
 
 extension AppDelegate: CLLocationManagerDelegate {
     

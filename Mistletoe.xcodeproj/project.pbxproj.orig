@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		8C3B2A977620EF3243C3F084 /* Pods_Mistletoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91298399B2A6B2469243DE2D /* Pods_Mistletoe.framework */; };
+=======
+		204BF6A91DCC189A00DB1696 /* MistletoeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6A81DCC189A00DB1696 /* MistletoeMapViewController.swift */; };
+		204BF6AB1DCC253E00DB1696 /* MistletoeMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6AA1DCC253E00DB1696 /* MistletoeMarker.swift */; };
+		204BF6AD1DCC259600DB1696 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6AC1DCC259600DB1696 /* Utilities.swift */; };
+>>>>>>> ee227b6f24d869e61622a4696defbe0084dd3113
 		9277292A1DC6B928001C97DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927729291DC6B928001C97DF /* AppDelegate.swift */; };
 		9277292C1DC6B928001C97DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9277292B1DC6B928001C97DF /* LoginViewController.swift */; };
 		9277292F1DC6B928001C97DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9277292D1DC6B928001C97DF /* Main.storyboard */; };
@@ -44,12 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		20D2D7218C05BDC742D0DBD7 /* Pods-Mistletoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mistletoe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe.debug.xcconfig"; sourceTree = "<group>"; };
 		5D11199F1A90522AE4A29DAF /* Pods-Mistletoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mistletoe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe.release.xcconfig"; sourceTree = "<group>"; };
 		6BFFE4DF31F95AC0C24EBED9 /* Pods-MistletoeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistletoeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B346B33ECCF34578A35D74E /* Pods_MistletoeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistletoeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E103E05D0BB33035A376BFE /* Pods-MistletoeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistletoeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests.release.xcconfig"; sourceTree = "<group>"; };
 		91298399B2A6B2469243DE2D /* Pods_Mistletoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mistletoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		204BF6A81DCC189A00DB1696 /* MistletoeMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMapViewController.swift; sourceTree = "<group>"; };
+		204BF6AA1DCC253E00DB1696 /* MistletoeMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMarker.swift; sourceTree = "<group>"; };
+		204BF6AC1DCC259600DB1696 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+>>>>>>> ee227b6f24d869e61622a4696defbe0084dd3113
 		927729261DC6B928001C97DF /* Mistletoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mistletoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927729291DC6B928001C97DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9277292B1DC6B928001C97DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
