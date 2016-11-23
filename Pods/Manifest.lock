@@ -1,0 +1,27 @@
+PODS:
+  - Material (2.3.11):
+    - Material/Core (= 2.3.11)
+  - Material/Core (2.3.11)
+  - Spring (1.0.3)
+
+DEPENDENCIES:
+  - Material
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Material: 321e44334101504ca3a7bfe4ce2851eb78091f3c
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+
+PODFILE CHECKSUM: e5c341d9f61cf7b7701622dc91d1b38873e48d92
+
+COCOAPODS: 1.1.1
