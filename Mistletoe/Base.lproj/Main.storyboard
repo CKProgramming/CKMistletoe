@@ -138,21 +138,38 @@
                             <constraint firstItem="yWC-1q-eWb" firstAttribute="leading" secondItem="PiU-wM-8yp" secondAttribute="leading" id="vHh-if-ots"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Days" id="Zbz-dk-ysx">
-                        <barButtonItem key="backBarButtonItem" title="Logout" id="Gd3-gp-Vhh"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Days" id="Zbz-dk-ysx"/>
                     <connections>
                         <outlet property="daysCollection" destination="yWC-1q-eWb" id="f7u-4U-cQJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gKK-pX-Prh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3280.8000000000002" y="123.68815592203899"/>
+            <point key="canvasLocation" x="3442" y="124"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="4O5-DV-7LW">
+            <objects>
+                <viewController storyboardIdentifier="Settings" id="vId-0j-8gf" customClass="SettingsViewController" customModule="Mistletoe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FnO-YM-Uy3"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZAr-PZ-DIR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KhB-JA-C25">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1cc-CY-ckd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4434" y="124"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PKH-Gh-yQk">
             <objects>
-                <navigationController storyboardIdentifier="daysNavController" automaticallyAdjustsScrollViewInsets="NO" id="sEm-ff-fdA" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="daysNavController" automaticallyAdjustsScrollViewInsets="NO" id="sEm-ff-fdA" customClass="NavigationController" customModule="Mistletoe" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="6wm-3w-YeZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -171,4 +188,5 @@
     <resources>
         <image name="Mistletoe Icon" width="125" height="125"/>
     </resources>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
 </document>

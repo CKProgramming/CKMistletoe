@@ -8,6 +8,7 @@
 
 import UIKit
 import Spring
+import Material
 
 class DaysViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 	
@@ -23,11 +24,24 @@ class DaysViewController: UIViewController, UICollectionViewDelegate, UICollecti
 		if let flowLayout = daysCollection.collectionViewLayout as? UICollectionViewFlowLayout {
 			flowLayout.minimumLineSpacing = 0
 		}
-        navigationController?.navigationBar.barTintColor = UIColor.mistletoeTan(1)
-        let logout = UIBarButtonItem(image: UIImage(named: "Exit"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(logoutTapped))
-        logout.tintColor = UIColor.black
-        navigationItem.leftBarButtonItems = [logout]
+        
+        prepareNavBar()
 	}
+    
+    func prepareNavBar() {
+        navigationController?.navigationBar.barTintColor = Color.mistletoeTan(1)
+        let logoutButton = UIBarButtonItem(image: UIImage(named: "Exit"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(logoutTapped))
+        let settingsButton = UIBarButtonItem(image: UIImage(named: "Settings"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(settingsTapped))
+        navigationItem.leftBarButtonItems = [logoutButton]
+        navigationItem.rightBarButtonItems = [settingsButton]
+    }
+    
+    func settingsTapped() {
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let settingsVC = mainStoryboard.instantiateViewController(withIdentifier: "Settings") as UIViewController
+        self.navigationItem.backButton.title = "Days"
+        self.navigationController?.pushViewController(settingsVC, animated: true)
+    }
 	
     func logoutTapped() {
         identityManager().token = nil
