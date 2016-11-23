@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+<<<<<<< HEAD
+		8C3B2A977620EF3243C3F084 /* Pods_Mistletoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91298399B2A6B2469243DE2D /* Pods_Mistletoe.framework */; };
+=======
+		204BF6A91DCC189A00DB1696 /* MistletoeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6A81DCC189A00DB1696 /* MistletoeMapViewController.swift */; };
+		204BF6AB1DCC253E00DB1696 /* MistletoeMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6AA1DCC253E00DB1696 /* MistletoeMarker.swift */; };
+		204BF6AD1DCC259600DB1696 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204BF6AC1DCC259600DB1696 /* Utilities.swift */; };
+>>>>>>> ee227b6f24d869e61622a4696defbe0084dd3113
+		9277292A1DC6B928001C97DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927729291DC6B928001C97DF /* AppDelegate.swift */; };
+		9277292C1DC6B928001C97DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9277292B1DC6B928001C97DF /* LoginViewController.swift */; };
+		9277292F1DC6B928001C97DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9277292D1DC6B928001C97DF /* Main.storyboard */; };
+		927729311DC6B928001C97DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927729301DC6B928001C97DF /* Assets.xcassets */; };
+		927729341DC6B928001C97DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927729321DC6B928001C97DF /* LaunchScreen.storyboard */; };
+		9277293F1DC6B928001C97DF /* MistletoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9277293E1DC6B928001C97DF /* MistletoeTests.swift */; };
+		9277294A1DC6B928001C97DF /* MistletoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927729491DC6B928001C97DF /* MistletoeUITests.swift */; };
+		927729721DC6BE96001C97DF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9277296E1DC6BE96001C97DF /* Bolts.framework */; };
+		927729731DC6BE96001C97DF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9277296F1DC6BE96001C97DF /* FBSDKCoreKit.framework */; };
+		927729741DC6BE96001C97DF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927729701DC6BE96001C97DF /* FBSDKLoginKit.framework */; };
+		927729751DC6BE96001C97DF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927729711DC6BE96001C97DF /* FBSDKShareKit.framework */; };
+		9277297B1DC6CC86001C97DF /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9277297A1DC6CC86001C97DF /* DaysViewController.swift */; };
+		92C64AA51DC6E0E8006828CD /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C64AA41DC6E0E8006828CD /* DaysCollectionViewCell.swift */; };
+		BA25E3A21DE3C7C40078EB73 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA25E3A11DE3C7C40078EB73 /* Colors.swift */; };
+		BA25E3A41DE3E7C70078EB73 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BA25E3A31DE3E7C70078EB73 /* Podfile */; };
+		CA25FDE08088E2E303455FB2 /* Pods_MistletoeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B346B33ECCF34578A35D74E /* Pods_MistletoeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9277293B1DC6B928001C97DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9277291E1DC6B927001C97DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 927729251DC6B927001C97DF;
+			remoteInfo = Mistletoe;
+		};
+		927729461DC6B928001C97DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9277291E1DC6B927001C97DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 927729251DC6B927001C97DF;
+			remoteInfo = Mistletoe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+<<<<<<< HEAD
+		20D2D7218C05BDC742D0DBD7 /* Pods-Mistletoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mistletoe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe.debug.xcconfig"; sourceTree = "<group>"; };
+		5D11199F1A90522AE4A29DAF /* Pods-Mistletoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mistletoe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe.release.xcconfig"; sourceTree = "<group>"; };
+		6BFFE4DF31F95AC0C24EBED9 /* Pods-MistletoeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistletoeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B346B33ECCF34578A35D74E /* Pods_MistletoeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MistletoeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E103E05D0BB33035A376BFE /* Pods-MistletoeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MistletoeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests.release.xcconfig"; sourceTree = "<group>"; };
+		91298399B2A6B2469243DE2D /* Pods_Mistletoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mistletoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		204BF6A81DCC189A00DB1696 /* MistletoeMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMapViewController.swift; sourceTree = "<group>"; };
+		204BF6AA1DCC253E00DB1696 /* MistletoeMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MistletoeMarker.swift; sourceTree = "<group>"; };
+		204BF6AC1DCC259600DB1696 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+>>>>>>> ee227b6f24d869e61622a4696defbe0084dd3113
+		927729261DC6B928001C97DF /* Mistletoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mistletoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927729291DC6B928001C97DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9277292B1DC6B928001C97DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9277292E1DC6B928001C97DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		927729301DC6B928001C97DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927729331DC6B928001C97DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		927729351DC6B928001C97DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9277293A1DC6B928001C97DF /* MistletoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistletoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9277293E1DC6B928001C97DF /* MistletoeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistletoeTests.swift; sourceTree = "<group>"; };
+		927729401DC6B928001C97DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927729451DC6B928001C97DF /* MistletoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistletoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		927729491DC6B928001C97DF /* MistletoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistletoeUITests.swift; sourceTree = "<group>"; };
+		9277294B1DC6B928001C97DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9277296E1DC6BE96001C97DF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9277296F1DC6BE96001C97DF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		927729701DC6BE96001C97DF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		927729711DC6BE96001C97DF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		9277297A1DC6CC86001C97DF /* DaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
+		9277297C1DC6D26F001C97DF /* Mistletoe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mistletoe.entitlements; sourceTree = "<group>"; };
+		92C64AA41DC6E0E8006828CD /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA25E3A11DE3C7C40078EB73 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		BA25E3A31DE3E7C70078EB73 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		927729231DC6B927001C97DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927729751DC6BE96001C97DF /* FBSDKShareKit.framework in Frameworks */,
+				927729721DC6BE96001C97DF /* Bolts.framework in Frameworks */,
+				927729731DC6BE96001C97DF /* FBSDKCoreKit.framework in Frameworks */,
+				927729741DC6BE96001C97DF /* FBSDKLoginKit.framework in Frameworks */,
+				8C3B2A977620EF3243C3F084 /* Pods_Mistletoe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927729371DC6B928001C97DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA25FDE08088E2E303455FB2 /* Pods_MistletoeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927729421DC6B928001C97DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9277291D1DC6B927001C97DF = {
+			isa = PBXGroup;
+			children = (
+				BA25E3A31DE3E7C70078EB73 /* Podfile */,
+				927729281DC6B928001C97DF /* Mistletoe */,
+				9277293D1DC6B928001C97DF /* MistletoeTests */,
+				927729481DC6B928001C97DF /* MistletoeUITests */,
+				927729271DC6B928001C97DF /* Products */,
+				9277296D1DC6BE96001C97DF /* Frameworks */,
+				CC2BE4D5094AAAA4BEBA7FD7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		927729271DC6B928001C97DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927729261DC6B928001C97DF /* Mistletoe.app */,
+				9277293A1DC6B928001C97DF /* MistletoeTests.xctest */,
+				927729451DC6B928001C97DF /* MistletoeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927729281DC6B928001C97DF /* Mistletoe */ = {
+			isa = PBXGroup;
+			children = (
+				BA25E3A01DE3C7980078EB73 /* Extensions */,
+				927729791DC6CC60001C97DF /* User Interface */,
+				927729781DC6CC57001C97DF /* Controllers */,
+				927729291DC6B928001C97DF /* AppDelegate.swift */,
+				204BF6A81DCC189A00DB1696 /* MistletoeMapViewController.swift */,
+				204BF6AA1DCC253E00DB1696 /* MistletoeMarker.swift */,
+				204BF6AC1DCC259600DB1696 /* Utilities.swift */,
+				9277292D1DC6B928001C97DF /* Main.storyboard */,
+				927729321DC6B928001C97DF /* LaunchScreen.storyboard */,
+				927729301DC6B928001C97DF /* Assets.xcassets */,
+				927729351DC6B928001C97DF /* Info.plist */,
+				9277297C1DC6D26F001C97DF /* Mistletoe.entitlements */,
+			);
+			path = Mistletoe;
+			sourceTree = "<group>";
+		};
+		9277293D1DC6B928001C97DF /* MistletoeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9277293E1DC6B928001C97DF /* MistletoeTests.swift */,
+				927729401DC6B928001C97DF /* Info.plist */,
+			);
+			path = MistletoeTests;
+			sourceTree = "<group>";
+		};
+		927729481DC6B928001C97DF /* MistletoeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				927729491DC6B928001C97DF /* MistletoeUITests.swift */,
+				9277294B1DC6B928001C97DF /* Info.plist */,
+			);
+			path = MistletoeUITests;
+			sourceTree = "<group>";
+		};
+		9277296D1DC6BE96001C97DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9277296E1DC6BE96001C97DF /* Bolts.framework */,
+				9277296F1DC6BE96001C97DF /* FBSDKCoreKit.framework */,
+				927729701DC6BE96001C97DF /* FBSDKLoginKit.framework */,
+				927729711DC6BE96001C97DF /* FBSDKShareKit.framework */,
+				91298399B2A6B2469243DE2D /* Pods_Mistletoe.framework */,
+				7B346B33ECCF34578A35D74E /* Pods_MistletoeTests.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		927729781DC6CC57001C97DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9277292B1DC6B928001C97DF /* LoginViewController.swift */,
+				9277297A1DC6CC86001C97DF /* DaysViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		927729791DC6CC60001C97DF /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				92C64AA41DC6E0E8006828CD /* DaysCollectionViewCell.swift */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		BA25E3A01DE3C7980078EB73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA25E3A11DE3C7C40078EB73 /* Colors.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CC2BE4D5094AAAA4BEBA7FD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D2D7218C05BDC742D0DBD7 /* Pods-Mistletoe.debug.xcconfig */,
+				5D11199F1A90522AE4A29DAF /* Pods-Mistletoe.release.xcconfig */,
+				6BFFE4DF31F95AC0C24EBED9 /* Pods-MistletoeTests.debug.xcconfig */,
+				8E103E05D0BB33035A376BFE /* Pods-MistletoeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		927729251DC6B927001C97DF /* Mistletoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9277294E1DC6B928001C97DF /* Build configuration list for PBXNativeTarget "Mistletoe" */;
+			buildPhases = (
+				1D158154F7A9716C2E415CA6 /* [CP] Check Pods Manifest.lock */,
+				927729221DC6B927001C97DF /* Sources */,
+				927729231DC6B927001C97DF /* Frameworks */,
+				927729241DC6B927001C97DF /* Resources */,
+				C8D8ED2012B4001503C423E5 /* [CP] Embed Pods Frameworks */,
+				38D025B8EDA7D7F55F50EE8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mistletoe;
+			productName = Mistletoe;
+			productReference = 927729261DC6B928001C97DF /* Mistletoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		927729391DC6B928001C97DF /* MistletoeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927729511DC6B928001C97DF /* Build configuration list for PBXNativeTarget "MistletoeTests" */;
+			buildPhases = (
+				77E721A5D8DBE1E98A93F4F3 /* [CP] Check Pods Manifest.lock */,
+				927729361DC6B928001C97DF /* Sources */,
+				927729371DC6B928001C97DF /* Frameworks */,
+				927729381DC6B928001C97DF /* Resources */,
+				DCF9D781FA71209E17590AED /* [CP] Embed Pods Frameworks */,
+				277F45D049CDD32AF5E17F13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9277293C1DC6B928001C97DF /* PBXTargetDependency */,
+			);
+			name = MistletoeTests;
+			productName = MistletoeTests;
+			productReference = 9277293A1DC6B928001C97DF /* MistletoeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		927729441DC6B928001C97DF /* MistletoeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927729541DC6B928001C97DF /* Build configuration list for PBXNativeTarget "MistletoeUITests" */;
+			buildPhases = (
+				927729411DC6B928001C97DF /* Sources */,
+				927729421DC6B928001C97DF /* Frameworks */,
+				927729431DC6B928001C97DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				927729471DC6B928001C97DF /* PBXTargetDependency */,
+			);
+			name = MistletoeUITests;
+			productName = MistletoeUITests;
+			productReference = 927729451DC6B928001C97DF /* MistletoeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9277291E1DC6B927001C97DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Zach;
+				TargetAttributes = {
+					927729251DC6B927001C97DF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4W29M3CXTS;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					927729391DC6B928001C97DF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 927729251DC6B927001C97DF;
+					};
+					927729441DC6B928001C97DF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 927729251DC6B927001C97DF;
+					};
+				};
+			};
+			buildConfigurationList = 927729211DC6B927001C97DF /* Build configuration list for PBXProject "Mistletoe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9277291D1DC6B927001C97DF;
+			productRefGroup = 927729271DC6B928001C97DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				927729251DC6B927001C97DF /* Mistletoe */,
+				927729391DC6B928001C97DF /* MistletoeTests */,
+				927729441DC6B928001C97DF /* MistletoeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		927729241DC6B927001C97DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927729341DC6B928001C97DF /* LaunchScreen.storyboard in Resources */,
+				927729311DC6B928001C97DF /* Assets.xcassets in Resources */,
+				BA25E3A41DE3E7C70078EB73 /* Podfile in Resources */,
+				9277292F1DC6B928001C97DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927729381DC6B928001C97DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927729431DC6B928001C97DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D158154F7A9716C2E415CA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		277F45D049CDD32AF5E17F13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D025B8EDA7D7F55F50EE8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E721A5D8DBE1E98A93F4F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D8ED2012B4001503C423E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mistletoe/Pods-Mistletoe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF9D781FA71209E17590AED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MistletoeTests/Pods-MistletoeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927729221DC6B927001C97DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9277297B1DC6CC86001C97DF /* DaysViewController.swift in Sources */,
+				BA25E3A21DE3C7C40078EB73 /* Colors.swift in Sources */,
+				9277292C1DC6B928001C97DF /* LoginViewController.swift in Sources */,
+				204BF6AD1DCC259600DB1696 /* Utilities.swift in Sources */,
+				9277292A1DC6B928001C97DF /* AppDelegate.swift in Sources */,
+				92C64AA51DC6E0E8006828CD /* DaysCollectionViewCell.swift in Sources */,
+				204BF6A91DCC189A00DB1696 /* MistletoeMapViewController.swift in Sources */,
+				204BF6AB1DCC253E00DB1696 /* MistletoeMarker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927729361DC6B928001C97DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9277293F1DC6B928001C97DF /* MistletoeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927729411DC6B928001C97DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9277294A1DC6B928001C97DF /* MistletoeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9277293C1DC6B928001C97DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 927729251DC6B927001C97DF /* Mistletoe */;
+			targetProxy = 9277293B1DC6B928001C97DF /* PBXContainerItemProxy */;
+		};
+		927729471DC6B928001C97DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 927729251DC6B927001C97DF /* Mistletoe */;
+			targetProxy = 927729461DC6B928001C97DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9277292D1DC6B928001C97DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9277292E1DC6B928001C97DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		927729321DC6B928001C97DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927729331DC6B928001C97DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9277294C1DC6B928001C97DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9277294D1DC6B928001C97DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9277294F1DC6B928001C97DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D2D7218C05BDC742D0DBD7 /* Pods-Mistletoe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mistletoe/Mistletoe.entitlements;
+				DEVELOPMENT_TEAM = 4W29M3CXTS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Mistletoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.Mistletoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		927729501DC6B928001C97DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D11199F1A90522AE4A29DAF /* Pods-Mistletoe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mistletoe/Mistletoe.entitlements;
+				DEVELOPMENT_TEAM = 4W29M3CXTS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Mistletoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.Mistletoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		927729521DC6B928001C97DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFFE4DF31F95AC0C24EBED9 /* Pods-MistletoeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MistletoeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mistletoe.app/Mistletoe";
+			};
+			name = Debug;
+		};
+		927729531DC6B928001C97DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E103E05D0BB33035A376BFE /* Pods-MistletoeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MistletoeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mistletoe.app/Mistletoe";
+			};
+			name = Release;
+		};
+		927729551DC6B928001C97DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MistletoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mistletoe;
+			};
+			name = Debug;
+		};
+		927729561DC6B928001C97DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MistletoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clarkryan.MistletoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mistletoe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		927729211DC6B927001C97DF /* Build configuration list for PBXProject "Mistletoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9277294C1DC6B928001C97DF /* Debug */,
+				9277294D1DC6B928001C97DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9277294E1DC6B928001C97DF /* Build configuration list for PBXNativeTarget "Mistletoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9277294F1DC6B928001C97DF /* Debug */,
+				927729501DC6B928001C97DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927729511DC6B928001C97DF /* Build configuration list for PBXNativeTarget "MistletoeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927729521DC6B928001C97DF /* Debug */,
+				927729531DC6B928001C97DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927729541DC6B928001C97DF /* Build configuration list for PBXNativeTarget "MistletoeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927729551DC6B928001C97DF /* Debug */,
+				927729561DC6B928001C97DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9277291E1DC6B927001C97DF /* Project object */;
+}
